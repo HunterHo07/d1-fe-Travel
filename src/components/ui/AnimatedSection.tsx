@@ -9,6 +9,7 @@ interface AnimatedSectionProps {
   className?: string;
   delay?: number;
   animation?: 'fade' | 'slide-up' | 'slide-down' | 'slide-left' | 'slide-right';
+  id?: string;
 }
 
 const AnimatedSection: React.FC<AnimatedSectionProps> = ({
@@ -16,6 +17,7 @@ const AnimatedSection: React.FC<AnimatedSectionProps> = ({
   className = '',
   delay = 0,
   animation = 'fade',
+  id
 }) => {
   const getAnimationVariant = () => {
     switch (animation) {
@@ -89,6 +91,7 @@ const AnimatedSection: React.FC<AnimatedSectionProps> = ({
       viewport={{ once: true, amount: 0.3 }}
       variants={getAnimationVariant()}
       className={className}
+      id={id}
     >
       {children}
     </motion.section>

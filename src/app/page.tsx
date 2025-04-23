@@ -80,8 +80,8 @@ export default function Home() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 drop-shadow-md">Discover the World <span className="text-blue-300">by Sea</span></h1>
-            <p className="text-xl md:text-2xl text-gray-900 mb-8 max-w-3xl mx-auto bg-white/80 p-4 rounded-lg">Experience unforgettable cruise journeys with our premium fleet and exceptional service. Over 40 years of creating memories on the ocean.</p>
+            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 drop-shadow-md">JEBSEN TRAVEL <span className="text-blue-300">& Tours</span></h1>
+            <p className="text-xl md:text-2xl text-gray-900 mb-8 max-w-3xl mx-auto bg-white/80 p-4 rounded-lg">The Largest Cruise Consolidator in Asia. Over 40 years of professional excellence in cruise travel since 1979.</p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <motion.div
