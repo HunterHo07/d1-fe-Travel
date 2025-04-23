@@ -41,13 +41,13 @@ export default function Home() {
     {
       id: 1,
       name: "Sarah Johnson",
-      text: "Our Caribbean cruise was absolutely magical! The staff was incredibly attentive, and the destinations were breathtaking. We'll definitely be booking with OceanVoyage again!",
+      text: "Our Caribbean cruise was absolutely magical! The staff was incredibly attentive, and the destinations were breathtaking. We'll definitely be booking with Jebsen Travel again!",
       rating: 5,
     },
     {
       id: 2,
       name: "Michael Chen",
-      text: "As someone who's been on many cruises, I can confidently say that OceanVoyage provides the best experience. Their attention to detail and customer service is unmatched.",
+      text: "As someone who's been on many cruises, I can confidently say that Jebsen Travel provides the best experience. Their attention to detail and customer service is unmatched.",
       rating: 5,
     },
     {
@@ -132,8 +132,8 @@ export default function Home() {
       <AnimatedSection id="features" className="py-20 bg-white" animation="fade">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Why Choose <span className="text-blue-600">OceanVoyage</span></h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">With over two decades of experience in the cruise industry, we provide exceptional service and unforgettable experiences.</p>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Why Choose <span className="text-blue-600">Jebsen Travel</span></h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">With over four decades of experience in the cruise industry, we provide exceptional service and unforgettable experiences.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -173,8 +173,8 @@ export default function Home() {
               <div className="text-blue-600 text-4xl mb-4">
                 <FaAnchor />
               </div>
-              <h3 className="text-xl font-bold mb-3">20+ Years Experience</h3>
-              <p className="text-gray-600">With over two decades in the industry, we have the expertise and knowledge to create the perfect cruise experience.</p>
+              <h3 className="text-xl font-bold mb-3">40+ Years Experience</h3>
+              <p className="text-gray-600">With over four decades in the industry, we have the expertise and knowledge to create the perfect cruise experience.</p>
             </AnimatedSection>
 
             <AnimatedSection className="bg-white p-8 rounded-lg shadow-lg border border-gray-100" animation="slide-up" delay={0.6}>
@@ -247,7 +247,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">What Our <span className="text-blue-200">Customers Say</span></h2>
-            <p className="text-blue-100 max-w-2xl mx-auto">Hear from travelers who have experienced the OceanVoyage difference.</p>
+            <p className="text-blue-100 max-w-2xl mx-auto">Hear from travelers who have experienced the Jebsen Travel difference.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -279,7 +279,7 @@ export default function Home() {
       <AnimatedSection className="py-20 bg-gray-900 text-white" animation="fade">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Ready to Embark on Your Next Adventure?</h2>
-          <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">Book your dream cruise today and experience the luxury, comfort, and adventure that OceanVoyage has been providing for over 20 years.</p>
+          <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">Book your dream cruise today and experience the luxury, comfort, and adventure that Jebsen Travel has been providing for over 40 years.</p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="primary" size="lg">

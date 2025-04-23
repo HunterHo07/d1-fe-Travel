@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "OceanVoyage | Premium Cruise Experiences",
-  description: "Discover unforgettable cruise experiences with OceanVoyage - your trusted cruise agency with over 20 years of excellence in service.",
+  title: "Jebsen Travel | Premium Cruise Experiences",
+  description: "Discover unforgettable cruise experiences with Jebsen Travel - the largest cruise consolidator in Asia with over 40 years of excellence in service.",
 };
 
 export default function RootLayout({
