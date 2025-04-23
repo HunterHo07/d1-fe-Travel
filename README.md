@@ -30,8 +30,8 @@ OceanVoyage is a modern, responsive web application for booking luxury cruise ex
 
 ### Prerequisites
 
-- Node.js 18.0 or later
-- npm, yarn, pnpm, or bun package manager
+- [Bun](https://bun.sh/) 1.0 or later (preferred)
+- Or: Node.js 18.0 or later with npm, yarn, or pnpm
 
 ### Installation
 
@@ -43,23 +43,11 @@ OceanVoyage is a modern, responsive web application for booking luxury cruise ex
 
 2. Install dependencies
    ```bash
-   npm install
-   # or
-   yarn install
-   # or
-   pnpm install
-   # or
    bun install
    ```
 
 3. Start the development server
    ```bash
-   npm run dev
-   # or
-   yarn dev
-   # or
-   pnpm dev
-   # or
    bun dev
    ```
 
@@ -104,19 +92,35 @@ The application uses Next.js configuration in `next.config.ts`. You can modify t
 
 ## 🌐 Deployment
 
-This application can be easily deployed on [Vercel](https://vercel.com/), the platform from the creators of Next.js:
+### GitHub Pages Deployment
+
+This project is configured for automatic deployment to GitHub Pages using GitHub Actions:
+
+1. Push your changes to the `main` branch
+2. GitHub Actions will automatically build and deploy your site
+3. Your site will be available at `https://yourusername.github.io/d1-fe-Travel/`
+
+#### Manual Deployment
+
+You can also deploy manually:
+
+```bash
+# Install gh-pages if you haven't already
+bun add -d gh-pages
+
+# Build and deploy
+bun run export
+bun run deploy
+```
+
+### Alternative Deployment: Vercel
+
+For the best Next.js experience, you can also deploy on [Vercel](https://vercel.com/):
 
 1. Push your code to a GitHub repository
 2. Import the project in Vercel
 3. Configure your deployment settings
 4. Deploy
-
-Alternatively, you can build the application for production:
-
-```bash
-npm run build
-npm start
-```
 
 ## 🤝 Contributing
 
