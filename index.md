@@ -1,3 +1,8 @@
+---
+layout: default
+title: OceanVoyage - Premium Cruise Booking Platform
+---
+
 # 🚢 OceanVoyage - Premium Cruise Booking Platform
 
 ![OceanVoyage](https://images.unsplash.com/photo-1548574505-5e239809ee19?q=80&w=1920)
@@ -6,7 +11,7 @@
 
 OceanVoyage is a modern, responsive web application for booking luxury cruise experiences. Built with Next.js and React, this platform offers a seamless booking experience with an intuitive user interface and smooth animations.
 
-## ✨ Key Features
+<h2 id="features">✨ Key Features</h2>
 
 - **Interactive Homepage**: Engaging landing page showcasing featured cruise packages
 - **Cruise Package Browsing**: Browse through various cruise destinations and packages
@@ -15,7 +20,7 @@ OceanVoyage is a modern, responsive web application for booking luxury cruise ex
 - **Responsive Design**: Fully responsive layout that works on all devices
 - **Modern UI**: Sleek design with animations powered by Framer Motion
 
-## 🛠️ Technologies Used
+<h2 id="technologies">🛠️ Technologies Used</h2>
 
 - **Frontend Framework**: [Next.js 15](https://nextjs.org/) with App Router
 - **UI Library**: [React 19](https://react.dev/)
@@ -26,7 +31,7 @@ OceanVoyage is a modern, responsive web application for booking luxury cruise ex
 - **Date Picking**: [React DatePicker](https://reactdatepicker.com/)
 - **Type Safety**: [TypeScript](https://www.typescriptlang.org/)
 
-## 🚀 Getting Started
+<h2 id="getting-started">🚀 Getting Started</h2>
 
 ### Prerequisites
 
